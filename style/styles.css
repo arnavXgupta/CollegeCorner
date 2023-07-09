@@ -234,6 +234,17 @@ p{
     color: #FCA311;
     
 }
+
+.explore-fiji {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://images.shiksha.com/mediadata/images/1584960645php8nt1Zj.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0px;
+  color: #fff;
+}
+
 /* Buy */
 .buy_bg{
     background-color: rgb(209, 204, 204);
