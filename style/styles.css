@@ -259,7 +259,6 @@ p{
     margin: 70px 120px 70px 100px;
     height: 700px;
     width: 682px;
-    
 }
 .buy_text{
     margin-left: 100px;
@@ -315,7 +314,8 @@ p{
 }
 
   .mail{
-    color: #f3f3f3
+    color: #f3f3f3;
+    font-size: 55px;
   }
   /* social media */
 
