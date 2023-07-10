@@ -208,7 +208,12 @@ body {
 }
 
 .landing_site{
-    background-color: #14213d;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://images.shiksha.com/mediadata/images/1584960645php8nt1Zj.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+    /* background-color: #14213d; */
     text-align: center;
     padding: 50px;
     width: 100%;
@@ -233,16 +238,6 @@ p{
 .purpose_span{
     color: #FCA311;
     
-}
-
-.explore-fiji {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://images.shiksha.com/mediadata/images/1584960645php8nt1Zj.jpeg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 100px 0px;
-  color: #fff;
 }
 
 /* Buy */
