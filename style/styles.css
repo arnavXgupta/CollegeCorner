@@ -282,9 +282,9 @@ p{
 .sell_img{
   float: right;
   margin: 70px 100px 70px 100px;
-  height: 700px;
-  width: 682px;
-  
+  height: 550px;
+  width: 550px;
+  object-fit: contain;
 }
 
 .sell_text{
