@@ -251,8 +251,10 @@ p{
   float: right;
   margin: 70px 120px 70px 100px;
   height: 700px;
-  width: 682px;
-  
+  width:  540px;
+  object-fit: contain;
+  object-position: center;
+  margin: 50px;
 }
 .buy_text{
   margin-left: 100px;
@@ -307,6 +309,13 @@ p{
     padding: 0;
 }
 
+.foot_img {
+  height: 100%px;
+  object-fit: contain;
+  object-position: center;
+  margin: 30px 30px 30px 30px;
+}
+
   .mail{
     color: #f3f3f3;
     font-size: 55px;
@@ -321,9 +330,9 @@ p{
     border: none;
     background-color: rgb(253, 253, 253);
     color: white;
-    box-shadow: 0px 10px 10px rgb(210, 187, 253) inset,
-    0px 5px 10px rgba(5, 5, 5, 0.212),
-    0px -10px 10px rgb(250, 199, 47) inset;
+    box-shadow: 0px 10px 10px rgb(246, 242, 235) inset,
+    0px 5px 10px rgba(200, 200, 200, 0.212),
+    0px -10px 10px rgb(236, 231, 214) inset;
     cursor: pointer;
     display: flex;
     align-items: center;
