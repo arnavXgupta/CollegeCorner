@@ -27,9 +27,9 @@ form{
     color:whitesmoke;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(11, 15, 13, 0.582);
+    background-color: rgba(12, 12, 12, 0.582);
     border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.125);
+    border: 1px solid rgba(11, 8, 8, 0.125);
 }
 
 
