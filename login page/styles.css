@@ -1,7 +1,8 @@
 body {
   font-family: Arial;
-  background: url(https://i0.wp.com/edupadhai.com/wp-content/uploads/2016/08/2-1.jpg?fit=2863%2C1826&ssl=1) no-repeat center center fixed; 
+  /* background: url(https://i0.wp.com/edupadhai.com/wp-content/uploads/2016/08/2-1.jpg?fit=2863%2C1826&ssl=1) no-repeat center center fixed;  */
   background-size: cover;
+  background-image: -moz-repeating-linear-gradient( 45deg, rgb(234, 175, 27) 1px, rgb(2, 57, 51) 1px);
 }
 
 input[type="text"],
