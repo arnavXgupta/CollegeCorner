@@ -1,0 +1,32 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card {
+    height: 550px;
+    display: flex;
+    margin: 15px 200px 15px 200px;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+.img_container{
+    height: 100%;
+    margin: 20px 10px 20px 10px;
+    float: right;
+}
+
+img{
+    height: 400px;
+    width: 320px;
+    margin: 40px 10px 40px 10px;
+    position: center;
+    border-radius: 10px;
+}
+
+a{
+    position: center;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

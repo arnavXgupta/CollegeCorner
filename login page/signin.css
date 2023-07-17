@@ -1,8 +1,9 @@
 body {
   font-family: Arial;
-  /* background: url(https://i0.wp.com/edupadhai.com/wp-content/uploads/2016/08/2-1.jpg?fit=2863%2C1826&ssl=1) no-repeat center center fixed;  */
+  /* background: url(https://images.adsttc.com/media/images/5bf3/8f5f/08a5/e509/1100/01ce/large_jpg/-_Featured_Image.jpg?1542688591) no-repeat center center fixed;  */
+  background: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000) no-repeat center center fixed; 
   background-size: cover;
-  background-image: -moz-repeating-linear-gradient( 45deg, rgb(234, 175, 27) 0px, rgb(0, 0, 0) 1px);
+  /* background-image: -moz-repeating-linear-gradient( 45deg, rgb(234, 175, 27) 0px, rgb(0, 0, 0) 1px); */
 }
 
 input[type="text"],
@@ -20,11 +21,10 @@ h1{
 
 
 form{
-    width:35rem;
-    margin: auto;
+    width:50rem;
+    margin: 30px auto;
     color:whitesmoke;
     backdrop-filter: blur(16px) saturate(180%);
-    -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(12, 12, 12, 0.582);
     border-radius: 12px;
     border: 1px solid rgba(11, 8, 8, 0.125);
@@ -51,7 +51,7 @@ label {
 }
 
 button {
-  background-color: #85630e;
+  background-color: #022e56;
   color: white;
   padding: 14px 20px;
   border-radius: 5px;
