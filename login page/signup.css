@@ -1,32 +1,77 @@
-body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+body {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #222;
+  font-weight: 400;
+  font-family: Poppins;
 }
 .card {
-    height: 550px;
-    display: flex;
-    margin: 15px 200px 15px 200px;
-    justify-content: center;
-    align-items: center;
-    background: #fff;
+  height: 550px;
+  display: flex;
+  margin: 15px 200px 15px 200px;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+.img_container {
+    width: auto;
+  height: auto;
+  margin: 100px 20px 100px 20px;
+  float: right;
+}
+
+img {
+  height: 400px;
+  width: 320px;
+  margin: 40px 10px 40px 10px;
+  position: center;
+  border-radius: 10px;
+}
+
+a {
+  position: center;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.form_group input{
+    width: 100%;
+    /* height: relative; */
+    position: relative;
+    margin-bottom: 19.5px;
+    overflow: hidden;
+    opacity: 0.7;
+    outline: none;
+      background: transparent; 
+      border: none;
+      border-bottom: 1px solid #000000;
+      padding: 10px 0;
+      font-size: 16px;
+      color: #000000;
+  }
+
+h1 {
+    text-align: left;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form{
+    width: 100%;
+    /* height: auto; */
+    position: relative;
+    padding: 50px 50px 50px;
+    background: #fffcf5;
     border-radius: 10px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
 }
-.img_container{
-    height: 100%;
-    margin: 20px 10px 20px 10px;
-    float: right;
-}
 
-img{
-    height: 400px;
-    width: 320px;
-    margin: 40px 10px 40px 10px;
-    position: center;
-    border-radius: 10px;
-}
-
-a{
-    position: center;
-    color: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+label {
+    font-size: medium;
 }

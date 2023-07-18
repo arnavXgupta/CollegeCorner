@@ -1,97 +1,85 @@
 body {
-  font-family: Arial;
-  /* background: url(https://images.adsttc.com/media/images/5bf3/8f5f/08a5/e509/1100/01ce/large_jpg/-_Featured_Image.jpg?1542688591) no-repeat center center fixed;  */
-  background: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000) no-repeat center center fixed; 
-  background-size: cover;
-  /* background-image: -moz-repeating-linear-gradient( 45deg, rgb(234, 175, 27) 0px, rgb(0, 0, 0) 1px); */
+  font-size: 13px;
+  line-height: 1.8;
+  color: #222;
+  font-weight: 400;
+  font-family: Poppins;
 }
 
-input[type="text"],
-input[type="password"] {
-  width: 100%;
-  margin: 10px 0;
-  border-radius: 5px;
-  padding: 15px 18px;
+.card {
+  height: 550px;
+  display: flex;
+  margin: 15px 200px 15px 200px;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
 }
 
-h1{
-    text-align: center;
+.img_container {
+    width: auto;
+  height: auto;
+  margin: 100px 20px 100px 20px;
+  float: right;
 }
 
+img {
+  height: 400px;
+  width: 320px;
+  margin: 40px 10px 40px 10px;
+  position: center;
+  border-radius: 10px;
+}
+
+a {
+  position: center;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.form_group input{
+  position: relative;
+  margin-bottom: 25px;
+  overflow: hidden;
+  opacity: 0.7;
+  outline: none;
+    background: transparent; 
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000000;
+}
+
+h1 {
+    text-align: left;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 form{
-    width:50rem;
-    margin: 30px auto;
-    color:whitesmoke;
-    backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(12, 12, 12, 0.582);
-    border-radius: 12px;
-    border: 1px solid rgba(11, 8, 8, 0.125);
-}
-
-
-p {
-  color: white;
-  opacity: 50%;
-  display: block;
-  text-align: center;
+    width: auto;
+    height: auto;
+    position: relative;
+    padding: 50px 50px 50px;
+    background: #fffcf5;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
 }
 
 label {
-  color: white;
-  opacity: 50%;
+    font-size: medium;
 }
-
-.heading{
-    text-align: center;
-}
-.input{
-    padding: 16px;
-}
-
-button {
-  background-color: #022e56;
-  color: white;
-  padding: 14px 20px;
-  border-radius: 5px;
-  margin: 7px 0;
-  width: 100%;
-  font-size: 18px;
-}
-
-button:hover {
-  opacity: 0.6;
-  cursor: pointer;
-}
-
-.link {
-  color: rgb(216, 236, 255);
-}
-
-span.forgotpsd a {
-    float: right;
-    color: whitesmoke;
-    padding-top: 16px;
-  }
-
-.forgotpsd a{
-    color: rgb(74, 146, 235);
-  }
   
-.forgotpsd a:link{
-    text-decoration: none;
-  }
-
-  .register{
-    color: white;
-    text-align: center;
-  }
-  
-  .register a{
-    color: rgb(74, 146, 235);
-  }
-  
-  .register a:link{
-    text-decoration: none;
+   .form_group input:focus ~ label,
+   .form_group input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #bdb8b8;
+    font-size: 12px;
   }
