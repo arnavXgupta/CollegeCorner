@@ -52,6 +52,7 @@ a {
     padding: 10px 0;
     font-size: 16px;
     color: #000000;
+    width: inherit;
 }
 
 h1 {
@@ -63,13 +64,21 @@ h1 {
 }
 
 form{
-    width: auto;
-    height: auto;
-    position: relative;
+    width: 100%;
+    height:relative;
+    position: center;
     padding: 50px 50px 50px;
     background: #fffcf5;
     border-radius: 10px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+.form_group {
+  width: 100%;
+  max-width: 500px;
+  padding: 5px;
+  margin: 5px;
+  position: relative;
 }
 
 label {
@@ -109,8 +118,3 @@ label {
     background-color: #ffffff;
     box-shadow: 0 0 5px #000000;
   }
-/* 
-  .form_group {
-    position: relative;
-    margin-bottom: 15px;
-  } */

@@ -81,9 +81,12 @@ form{
 
 label {
     font-size: medium;
-    position: center;
 }
 
+.form_gr {
+  display: inline;
+  padding: 5px;
+}
  .form_group input:focus ~ label,
  .form_group input:valid ~ label {
     top: -20px;
