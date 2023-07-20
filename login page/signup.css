@@ -15,7 +15,16 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
+  position: relative;
 }
+
+.form_container {
+  width: 100%;
+  max-width: 300px; /* Adjust this value to set the maximum width of the form */
+  padding: 50px;
+  height: inherit;
+}
+
 .img_container {
     width: auto;
   height: auto;
@@ -34,8 +43,7 @@ img {
 a {
   position: center;
   color: black;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .form_group input{
@@ -64,7 +72,6 @@ h1 {
 
 form{
     width: 100%;
-    /* height: auto; */
     position: relative;
     padding: 50px 50px 50px;
     background: #fffcf5;
@@ -74,4 +81,38 @@ form{
 
 label {
     font-size: medium;
+    position: center;
+}
+
+ .form_group input:focus ~ label,
+ .form_group input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #bdb8b8;
+    font-size: 12px;
+  }
+
+button {
+  position: relative;
+  display: inline-block;
+  padding: 12px 24px;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.7s all ease;
+  border-radius: 10px;
+  background-color: #5048ec;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+}
+
+button:hover {
+  color: #000000;
+  background-color: #ffffff;
+  box-shadow: 0 0 2px #000000;
 }

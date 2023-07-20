@@ -36,8 +36,8 @@ img {
 a {
   position: center;
   color: black;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
 }
 
 .form_group input{
@@ -83,3 +83,34 @@ label {
     color: #bdb8b8;
     font-size: 12px;
   }
+
+  button {
+    position: relative;
+    display: inline-block;
+    padding: 12px 24px;
+    /* margin: 30px 10px 30px 10px; */
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.7s all ease;
+    border-radius: 10px;
+    background-color: #5048ec;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  button:hover {
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px #000000;
+  }
+/* 
+  .form_group {
+    position: relative;
+    margin-bottom: 15px;
+  } */
