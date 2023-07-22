@@ -65,7 +65,8 @@ h1 {
 
 form{
     width: 100%;
-    height:relative;
+    height:inherit;
+    max-height: 82%;
     position: center;
     padding: 50px 50px 50px;
     background: #fffcf5;
